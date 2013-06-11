@@ -1,19 +1,28 @@
 # BloonCrypto
 
-BloonCrypto is one of the three project from BloonProject.
-BloonCrypto is the world #1 Habbo Hotel Emulator to be in PHP.
-BloonCrypto support a R63 Post-Shuffle Release.
-BloonCrypto start at 6.0MB (used memory), auto-optimize SQL.
+BloonCrypto is a educative project, it's a emulator for 3D game called Habbo.
+It's the first emulator in Habbo private server to be on php.
+It's completly open-source and the code is simple (if you know OOP and PDO PHP
 
 ![BloonCrypto](http://i.imgur.com/aW9PZSl.png "BloonCrypto")
 
-## Requierments
+## What do you need ?
 
-NO MORE REQUIERMENTS, when you download the zipsource, a php configuration is auto-installed and ready for use.
+BloonCrypto isn't working with Unix-based systems due to pthread (it doesn't exist on Unix systems).
+You must have Windows to run BloonCrypto, you don't need to do anything, all is include in .zip file.
+A pre-configurated PHP5.4 is ready to use with emulator.
 
-### Revision 27350
-Just a WARNING : All modifications, all new features, all enhancement are from the Revision 24100 to Revision 27350
-This revision is a 'pre-beta' revision.
+### Latest Revision for BloonCrypto.
+
+Latest revision is : 27350.
+Stage : Pre-Beta.
+List : Unstable.
+OS : Windows-Only.
+SQL : MySQL-Only.
+PHP version : 5.4.x.
+PHP major extension : pthreads.
+
+#### All from first revision to Revision 27350
 
 * Fixed pathfinding sit bug
 * Started stacking item and fixed minor bug
@@ -41,10 +50,6 @@ This revision is a 'pre-beta' revision.
 * Started catalogue
 * Updated packet header name
 * Started inventory, started edit of all packet id name (unfinished)
-
-
-### Revision 24100
-
 * Coded Z axis of pathfinder !
 * Fixed updater
 * Added message on startup if missing extension (pthreads)
@@ -56,9 +61,6 @@ This revision is a 'pre-beta' revision.
 * Added version file, coded about command
 * Fixed console write on loading room
 * Recoded UsersOnline,RoomsLoaded count system and enhanced config system
-
-### Revision 23350
-
 * Added :hal command
 * Fixed chat bullet
 * Fixed cmdlogs
@@ -70,18 +72,12 @@ This revision is a 'pre-beta' revision.
 * Added todo list
 * Finished new config system (bloon.conf)
 * Fixed pathfinder bug, started new config system
-
-### Revision 22000
-
 * Pathfinder multithreading fixed (thanks to krakjoe !)
 * Added all update command
 * Coded permission system
 * Minor code fix.
 * Minor system enhancement.
 * Minor bugs fix.
-
-### Revision 20500 (working Alpha #2)
-
 * Rooms enhanced more (yea!)
 * Pathfinder enhanced and fixed.
 * Friend Tools bar started to be fixed (but amigo are not fixed)
@@ -89,10 +85,6 @@ This revision is a 'pre-beta' revision.
 * Hotel Alert command (:ha) added.
 * Minor code fix.
 * Minor system enhancement.
-* Minor bugs fix.
-
-### Revision 20000 (working Alpha)
-
 * Rooms enhanced
 * Pathfinder coded
 * Chat coded (shout,say)
@@ -100,17 +92,11 @@ This revision is a 'pre-beta' revision.
 * Minor bug fix
 * Added some feature
 * Added full support of PHP 5.4 (thanks to Ethis)
-
-### Revision 13506
-
 * Public navigator added.
 * Rooms added, but not finish yet.
 * Minor update.
 * Minor fix.
 * Fix for PHP5.4
-
-### Revision 13105
-
 * Starting add multithread (/w pthread) on PHP emulator
 * Add pthreads php extension
 * Fix a lot of minnor issue
@@ -121,9 +107,6 @@ This revision is a 'pre-beta' revision.
 * Add a system in updater class, if you change revision code to "dev-custom", the script will not check the build. (Only for devs.)
 * Add navigation features
 * Fix a medium issue(when the user haven't any friends requests, he will be disconnected.. that's fixed)
-
-### Revision 12000
-
 * Added crossdomain function to core.
 * Edit class function to static method.
 * Bug fix …
