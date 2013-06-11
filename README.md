@@ -1,26 +1,26 @@
 # BloonCrypto
 
-BloonCrypto is a educative project, it's a emulator for 3D game called Habbo.
-It's the first emulator in Habbo private server to be on php.
-It's completly open-source and the code is simple (if you know OOP and PDO PHP
+* BloonCrypto is a educative project, it's a emulator for 3D game called Habbo.
+* It's the first emulator in Habbo private server to be on php.
+* It's completly open-source and the code is simple (if you know OOP and PDO PHP)
 
 ![BloonCrypto](http://i.imgur.com/aW9PZSl.png "BloonCrypto")
 
 ## What do you need ?
 
-BloonCrypto isn't working with Unix-based systems due to pthread (it doesn't exist on Unix systems).
-You must have Windows to run BloonCrypto, you don't need to do anything, all is include in .zip file.
-A pre-configurated PHP5.4 is ready to use with emulator.
+* BloonCrypto isn't working with Unix-based systems due to pthread (it doesn't exist on Unix systems).
+* You must have Windows to run BloonCrypto, you don't need to do anything, all is include in .zip file.
+* A pre-configurated PHP5.4 is ready to use with emulator.
 
 ### Latest Revision for BloonCrypto.
 
-Latest revision is : 27350.
-Stage : Pre-Beta.
-List : Unstable.
-OS : Windows-Only.
-SQL : MySQL-Only.
-PHP version : 5.4.x.
-PHP major extension : pthreads.
+* Latest revision is : 27350.
+* Stage : Pre-Beta.
+* List : Unstable.
+* OS : Windows-Only.
+* SQL : MySQL-Only.
+* PHP version : 5.4.x.
+* PHP major extension : pthreads.
 
 #### All from first revision to Revision 27350
 
