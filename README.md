@@ -1,10 +1,15 @@
 # BloonCrypto
 
+What is happen to this README ?
+To be simple, BitBucket is more safer than GitHub (DMCA and another shit).
+
+GitHub Branch continues to be updated but, it'll maybe destroy by GitHub Team due to DMCA and Sulake actions.
+Please consider BitBucket more safer : https://bitbucket.org/bloonproject/blooncrypto/src
+
+
 * BloonCrypto is a educative project, it's a emulator for 3D game called Habbo.
 * It's the first emulator in Habbo private server to be on php.
 * It's completly open-source and the code is simple (if you know OOP and PDO PHP)
-
-![BloonCrypto](http://i.imgur.com/aW9PZSl.png "BloonCrypto")
 
 ## What do you need ?
 
